@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -22,11 +23,13 @@
   },
   "homepage": "https://github.com/you112ef/new#readme",
   "dependencies": {
+    "dockerode": "^4.0.9",
     "next": "^15.5.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@types/dockerode": "^3.3.44",
     "@types/node": "^24.9.1",
     "@types/react": "^19.2.2",
     "typescript": "^5.9.3"
